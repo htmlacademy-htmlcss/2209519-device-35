@@ -8,65 +8,158 @@
 
   <body>
 
-    <!-- Шапка -->
-    <header class="page-header">
-      <h1 class="visually-hidden">Интернет-магазин Девайс</h1>
+    <div class="container">
 
-      <!-- Логотип Шапки -->
-      <div class="header-logo">
-        <a class="logo" href="#"><img class="logo" src="#" width="145" height="36"
-            alt="Логотип Интернет-магазина Девайс">
-        </a>
-      </div>
+      <!-- Шапка -->
+      <header class="page-header">
+        <h1 class="visually-hidden">Интернет-магазин Девайс</h1>
 
-      <!-- Навигация -->
-      <nav class="navigation">
+        <!-- Логотип Шапки -->
+        <div class="header-logo">
+          <a class="logo" href="#"><img class="logo" src="#" width="145" height="36"
+              alt="Логотип Интернет-магазина Девайс">
+          </a>
+        </div>
 
-        <!-- Навигация пользователя -->
-        <ul class="navigation-user">
+        <!-- Навигация -->
+        <nav class="navigation">
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Найти</a>
-          </li>
+          <!-- Навигация пользователя -->
+          <ul class="navigation-user">
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Войти</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Найти</a>
+            </li>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Сравнить</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Войти</a>
+            </li>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">Корзина</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Сравнить</a>
+            </li>
 
-        </ul>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">Корзина</a>
+            </li>
 
-        <!-- Навигация по сайту -->
-        <ul class="navigation-menu">
+          </ul>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">КАТАЛОГ ТОВАРОВ</a>
-          </li>
+          <!-- Навигация по сайту -->
+          <ul class="navigation-menu">
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">ДОСТАВКА</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">КАТАЛОГ ТОВАРОВ</a>
+            </li>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">ГАРАНТИЯ</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">ДОСТАВКА</a>
+            </li>
 
-          <li class="navigation-item">
-            <a class="navigation-link" href="#">КОНТАКТЫ</a>
-          </li>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">ГАРАНТИЯ</a>
+            </li>
 
-        </ul>
+            <li class="navigation-item">
+              <a class="navigation-link" href="#">КОНТАКТЫ</a>
+            </li>
 
-      </nav>
+          </ul>
 
-    </header>
+        </nav>
+
+      </header>
+
+      <!-- Main -->
+      <main class="main-index">
+
+        <!-- Слайдер -->
+        <section class="slider">
+          <h2 class="visually-hidden"> Галерея товаров </h2>
+
+          <div class="slider-left-side">
+
+            <!-- Изображение товара на слайдере -->
+
+            <button class="slider-button slider-prev" type="button">
+              <span class="visually-hidden"> Предыдущий товар </span>
+            </button>
+
+            <div class="slider-image">
+              <a class="slider-image" href="#"><img class="slider-image" src="#" width="560" height="560"
+                  alt="Изображение первого товара">
+              </a>
+            </div>
+
+            <button class="slider-button slider-next" type="button">
+              <span class="visually-hidden"> Следующий товар </span>
+            </button>
+
+          </div>
+
+          <!-- Описание товара на слайдере -->
+
+          <div class="slider-right-side">
+
+            <span>01</span>
+            <h2>Порхает как бабочка, <br> жалит как пчела!</h2>
+            <p>Этот обычный, на первый взгляд, квадрокоптер оснащен <br> мощным лазером, замаскированным под стандартную
+              камеру.
+            </p>
+
+            <button class="button" type="button">
+              <span> Подробнее </span>
+            </button>
+
+            <span> 800 м </span>
+            <span> Дальность полета </span>
+            <span> 800 м </span>
+            <span> Радиус поражения </span>
+
+          </div>
+
+        </section>
+
+        <!-- Каталог товаров по категориям -->
+
+        <section class="catalog">
+          <h3 class="visually-hidden"> Каталог товаров по категориям </h3>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Виртуальная реальность </span>
+            </a>
+          </div>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Моноподы для селфи </span>
+            </a>
+          </div>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Экшн-камеры </span>
+            </a>
+          </div>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Фитнес-браслеты </span>
+            </a>
+          </div>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Умные часы </span>
+            </a>
+          </div>
+
+          <div class="catalog-item">
+            <a class="catalog-item" href="#"><span> Квадрокоптеры </span>
+            </a>
+          </div>
+
+        </section>
+
+      </main>
+
+    </div>
 
   </body>
 
